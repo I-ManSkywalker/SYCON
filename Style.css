@@ -1,0 +1,93 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	position: absolute;
+	top: 504px;
+	left: 175px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #7e7e7e;
+}
+
+h1 b {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 32px;
+	font-weight: normal;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.info {
+	border: 6px solid rgba(255,0,0,0);	
+}
+
+.clickable {
+	cursor: pointer;
+	border: 6px solid rgba(255,0,0,0);	
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-webkit-transition-property: border-color;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-moz-transition-property: border-color;
+	-o-transition: opacity 0.3s ease-in-out;
+	-o-transition-property: border-color;
+	transition: opacity 0.3s ease-in-out;		
+}
+
+.clickable:hover {
+	border-color: rgba(255,0,0,0.9);
+}
+
+#load-button, #download-button, #print-button {
+	width: 676px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 26px;	
+	padding-top: 14px;
+	padding-left: 100px;
+	color: #7e7e7e;
+	background-color: #f0f0f0;
+	background-repeat: no-repeat;
+	background-position: 12px 7px;
+	border-radius: 20px;
+	position: absolute;
+	top: 560px;
+	left: 121px;
+	height: 76px;
+	text-align: left;
+	box-sizing: border-box;
+}
+
+#download-button {
+	left: 481px;
+	background-image: url("download.png");	
+	top: 600px;
+	width: 330px;
+}
+
+#print-button {
+	background-image: url("printer.png");
+	top: 560px;
+}
+
+.load {
+    background-image: url("googlePlus.png");
+}
+
+.loading {
+    background-image: url("loading.png");
+}
+
+#print-button.printing {
+    background-image: url("printing.gif");
+}
+
+.reload {
+    background-image: url("reload.png");
+}
